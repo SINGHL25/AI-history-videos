@@ -1,1 +1,7 @@
+moviepy
+gTTS
+Pillow
+opencv-python
+transformers
+torch
 
