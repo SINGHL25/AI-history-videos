@@ -14,6 +14,31 @@ Each episode (e.g., Dandi March, Revolt 1857) has:
 - `subtitles.srt` — synced subtitles
 - `movie.py` — assembles final `video.mp4`
 
+ai-history-videos/
+├── 01_dandi_march/
+│   ├── script.txt
+│   ├── voiceover.mp3
+│   ├── subtitles.srt
+│   ├── movie.py
+│   ├── video.mp4  ← (final output)
+│   └── assets/
+│       ├── background.jpg
+│       └── character.png
+├── 02_revolt_1857/
+│   ├── script.txt
+│   ├── voiceover.mp3
+│   ├── subtitles.srt
+│   ├── movie.py
+│   ├── video.mp4
+│   └── assets/
+├── README.md
+├── requirements.txt
+└── utils/
+    ├── text_to_speech.py
+    ├── srt_generator.py
+    └── ai_character.py
+
+
 ## How to Run
 1. Install requirements:
 pip install -r requirements.txt
