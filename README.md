@@ -106,3 +106,79 @@ character = ImageClip("assets/character.png").resize(height=400).set_duration(60
 final = CompositeVideoClip([bg, character, subtitles.set_pos(("center", "bottom"))])
 final = final.set_audio(audio)
 final.write_videofile("video.mp4", fps=24)
+
+🔧 1. Script to Voiceover (Text-to-Speech)
+✅ ElevenLabs – Best free realistic voice
+Upload or type your script → get high-quality voiceover (voiceover.mp3)
+
+Free plan available (limited credits)
+
+Languages: Multiple Indian English accents available
+
+Alternative: PlayHT, TTSMP3.com
+
+🎥 2. Avatar Generation for Character
+✅ D-ID – Talking photo from audio
+Upload character.png + voiceover.mp3 → animated speaking character
+
+Good for Narrator clips
+
+Free sign-up with limited usage
+
+Alternative: HeyGen (limited free export)
+
+🎬 3. Video Editor (combine audio, images, overlays)
+✅ [MoviePy (Python-based) – Local/scripted video**
+You already have movie.py script
+
+Combines: background.jpg, intro_logo.png, voiceover.mp3, subtitles.srt, etc.
+
+Free, customizable, offline
+
+Alternative GUI editors (free):
+
+CapCut Web
+
+Clipchamp
+
+WeVideo
+
+📄 4. Subtitles Generator (auto or manual)
+✅ Kapwing Subtitles Tool
+Upload script or video, it auto-generates .srt
+
+Allows manual editing and export as .srt or burned-in
+
+Alternative: SubtitleCat, Happy Scribe
+
+🖼️ 5. Background & Scene Images
+✅ Unsplash or Pixabay
+Get royalty-free images for historical backdrops (background.jpg)
+
+Use keywords like “India 1947”, “Gandhi protest”, etc.
+
+Alternative: Pexels
+
+🎵 6. Background Music
+✅ Free Music Archive or Bensound
+Royalty-free music, sorted by mood or theme
+
+Format: .mp3 usable in movie.py or video editors
+
+Keywords: “Epic India”, “Emotional”, “Cinematic”
+
+🎞️ 7. Final Export and Sharing
+✅ Canva Video Editor (Beginner-friendly)
+Free for basic video edits, overlays, timeline, titles
+
+Great if you want to visually edit + download video.mp4
+
+Alternative: OpenShot – open-source desktop editor
+
+📦 OPTIONAL: All-in-One Web App (drag & drop everything)
+✅ Renderforest
+Upload assets + use templates (Intro/Outro, text overlays, scenes)
+
+Free plan with watermark (can export low-res free)
+
+Ideal for complete end-to-end storytelling videos
